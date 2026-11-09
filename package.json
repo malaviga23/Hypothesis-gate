@@ -1,0 +1,16 @@
+{
+  "name": "hypothesis-gate-root",
+  "version": "1.0.0",
+  "description": "Hypothesis Gate - Research Idea Validation and Mentor Collaboration Platform",
+  "scripts": {
+    "server": "cd backend && node src/server.js",
+    "client": "cd frontend && npm run dev",
+    "db:init": "cd backend && node initDb.js",
+    "db:seed": "cd backend && node seed.js",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["research", "validation", "mentor-collaboration", "hypothesis-testing"],
+  "author": "",
+  "license": "ISC"
+}
